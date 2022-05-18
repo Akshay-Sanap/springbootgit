@@ -16,6 +16,10 @@ public class ApplicationController {
     public String sevices(){
         return "Software Development";
     }
+    @GetMapping("/addresses")
+    public String address(){
+        return "Nashik";
+    }
 
 }
 
